@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 400px;
+        height: 500px;
+        margin: 10px 40px;
+        border: 1px solid plum;
+        padding: 30px;
+        box-shadow: 1px 1px 5px 0;
+
+    }
+    .eligible{
+        color: green;
+    }
+    .not-eligible{
+        color: red;
+    }
+    .youaretooyoung {
+        color: blue ;
+
+    }
+.error{
+    color: brown;
+}
+    
+    
+</style>
+<body>
+   <div class="container">
+    <form action="">
+        <div class="input-group">
+            <input type="number" id="age" placeholder="Enter your age" oninput="checkEligibility()">
+            <p id="result"></p>
+        </div>
+        </form>
+            <script src="age.js"></script>
+</body>
+</html>
